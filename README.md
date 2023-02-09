@@ -19,8 +19,7 @@
 
 *  感谢以上github仓库所有者！
 
-##### 插件下载:
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kenzok8/compile-package?style=for-the-badge&label=插件每日更新)](https://github.com/kenzok8/compile-package/releases/latest)
+
 
 ##### 关于Secrets、TOKEN的小知识
 
@@ -43,26 +42,6 @@
 
 * 在仓库`Settings->Secrets`中添加 `TELEGRAM_CHAT_ID, TELEGRAM_TOKEN `可推送编译结果到`Telegram Bot`
 
-
-
-
-#### 使用方式（三选一）：
-
-1. 先cd进package目录，然后执行
-
-```bash
- git clone https://github.com/kenzok8/small-package
-```
-2. 或者添加下面代码到feeds.conf.default文件
-
-```bash
- src-git small8 https://github.com/kenzok8/small-package
-```
-3. lede/下运行 或者openwrt/下运行
-
-```bash
-git clone https://github.com/kenzok8/small-package package/small-package
-```
 
 
 
