@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/janver.yml'
-      - 'main.sh'
+      - '.github/diy/main.sh'
   schedule:
     - cron: 0 */12 * * *
   repository_dispatch:
