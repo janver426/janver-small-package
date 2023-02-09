@@ -19,6 +19,9 @@ jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id || ! github.event.sender.id
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      discussions: write
 
     name: Update ${{matrix.target}}
     strategy:
