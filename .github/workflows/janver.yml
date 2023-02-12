@@ -23,6 +23,7 @@ jobs:
       contents: write
       discussions: write
       pull-requests: write
+      issues: 'write' #__This fixed the HttpError: Resource not accessible by integration
 
     name: Update ${{matrix.target}}
     strategy:
