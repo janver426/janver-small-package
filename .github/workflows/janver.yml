@@ -22,7 +22,6 @@ jobs:
     permissions:
       contents: write
       discussions: write
-      pull-requests: write
       issues: write
 
     name: Update ${{matrix.target}}
