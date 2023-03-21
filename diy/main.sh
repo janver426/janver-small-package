@@ -17,7 +17,6 @@ mv -n `find $1/* -maxdepth 0 -type d` ./
 rm -rf $1
 }
 git clone --depth 1 https://github.com/kenzo78/my-packages && mvdir my-packages
-git_clone --depth 1 https://github.com/fw876/helloworld && mvdir helloworld
 git clone --depth 1 https://github.com/kiddin9/luci-app-dnsfilter
 git clone --depth 1 https://github.com/kiddin9/aria2
 git clone --depth 1 https://github.com/kiddin9/luci-app-baidupcs-web
